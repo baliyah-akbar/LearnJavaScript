@@ -24,3 +24,20 @@ if (score >= 90) {
 } else {
     console.log("Grade: D");
 }
+
+//Switch Statement
+let a = 4;
+
+switch (a) {
+    case 2:
+        console.log("Small");
+        break;
+    case 4:
+        console.log("Medium");
+        break;
+    case 6:
+        console.log("Large");
+        break;
+    default:
+        console.log("No Size");
+}
